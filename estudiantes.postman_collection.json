@@ -1,0 +1,168 @@
+{
+	"id": "18025f40-e316-1f81-587c-582f7d411a44",
+	"name": "estudiantes",
+	"description": "",
+	"order": [
+		"8928778a-86c5-221b-78b8-b2f89b8c8726",
+		"132267fb-da0a-6128-6a78-cf3ce9930021",
+		"b65f45e8-99a3-900f-41ca-cc404ce9c8ef",
+		"e03dfcfa-ae39-06de-a9bb-e1e84952d0e6",
+		"4248a40a-5613-cebc-7bae-2ccad7519f60"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1611525987746,
+	"owner": "14235018",
+	"public": false,
+	"requests": [
+		{
+			"id": "132267fb-da0a-6128-6a78-cf3ce9930021",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "18025f40-e316-1f81-587c-582f7d411a44",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:3000/api",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1611576480980,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\n\n\t\"nombre\" : \"Crono\",\n\t\"apellido\" : \"Vivas\",\n\t\"edad\" : 13,\n\t\"direccion\" : \"cra 23 # 56-34\",\n\t\"correo\" : \"crono@instituto.com\",\n\t\"telefono\" : 4458970\n}"
+		},
+		{
+			"id": "4248a40a-5613-cebc-7bae-2ccad7519f60",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/allElements",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "18025f40-e316-1f81-587c-582f7d411a44",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:3000/api/allElements",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1611576654901,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\n\n\t\"nombre\" : \"Isis\",\n\t\"apellido\" : \"Vivas\",\n\t\"edad\" : 5,\n\t\"direccion\" : \"cra 23 # 56-34\",\n\t\"correo\" : \"isis@instituto.com\",\n\t\"telefono\" : 4458970\n}"
+		},
+		{
+			"id": "8928778a-86c5-221b-78b8-b2f89b8c8726",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1611576462956,
+			"name": "http://localhost:3000/api/allElements",
+			"description": "",
+			"collectionId": "18025f40-e316-1f81-587c-582f7d411a44",
+			"responses": [],
+			"rawModeData": "{\n\t\n\n\t\"nombre\" : \"Crono\",\n\t\"apellido\" : \"Vivas\",\n\t\"edad\" : 13,\n\t\"direccion\" : \"cra 23 # 56-34\",\n\t\"correo\" : \"crono@instituto.com\",\n\t\"telefono\" : 4458970\n}"
+		},
+		{
+			"id": "b65f45e8-99a3-900f-41ca-cc404ce9c8ef",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/600eb4780f96b90347669269",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1611576592932,
+			"name": "http://localhost:3000/api/600eb4780f96b90347669269",
+			"description": "",
+			"collectionId": "18025f40-e316-1f81-587c-582f7d411a44",
+			"responses": [],
+			"rawModeData": "{\n\t\n\n\t\"nombre\" : \"Isis\",\n\t\"apellido\" : \"Vivas\",\n\t\"edad\" : 5,\n\t\"direccion\" : \"cra 23 # 56-34\",\n\t\"correo\" : \"isis@instituto.com\",\n\t\"telefono\" : 4458970\n}"
+		},
+		{
+			"id": "e03dfcfa-ae39-06de-a9bb-e1e84952d0e6",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/allElements",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1611576640096,
+			"name": "http://localhost:3000/api/600eb4780f96b90347669269",
+			"description": "",
+			"collectionId": "18025f40-e316-1f81-587c-582f7d411a44",
+			"responses": [],
+			"rawModeData": "{\n\t\n\n\t\"nombre\" : \"Isis\",\n\t\"apellido\" : \"Vivas\",\n\t\"edad\" : 5,\n\t\"direccion\" : \"cra 23 # 56-34\",\n\t\"correo\" : \"isis@instituto.com\",\n\t\"telefono\" : 4458970\n}"
+		}
+	]
+}
